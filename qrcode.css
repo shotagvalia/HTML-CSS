@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgb(204, 221, 233);
+    
+}
+
+div {
+    border-radius: 10px;
+    background-color:white ;
+    padding: 50px 40px 40px 40px;
+    margin: 300px 660px;
+    text-align: center;
+    
+}
+
+div img {
+    border-radius: 10px;
+    width: 288px;
+    height:288px;
+}

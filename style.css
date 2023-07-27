@@ -1,0 +1,77 @@
+/* reset */
+* {
+    /* margin:0;
+    padding:0; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(190, 215, 184);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+h2 {
+    color:rgb(56, 27, 138);
+}
+div {
+ width: 150px; 
+ height:180px;
+ background-color:aqua;
+ /* margin-top: 100px;
+ margin-right: 50px;
+ margin-bottom: 100px;
+ margin-left: 50px; */
+
+ /* margin: 100px 50px 100px 50px; */
+ margin: 100px 70px;
+ display:inline-block;
+
+ /* margin: 100px 50px 150px;  */
+}
+
+.box3 p:first-line, 
+.box3 h2:first-letter {
+    color: rgb(223, 25, 25);
+}
+
+#box1 {
+    background-color: firebrick;
+    color:white
+}
+
+#box1 h2,
+#box1 p{
+    color:rgb(11, 10, 15)
+}
+
+/* #box1 p {
+    color:rgb(11, 10, 15)
+} */
+
+/* ქვედა მიმართვით არ გადააწერს რადგან id-ს უფრო მაღალი პრიორიტეტი აქვს ვიდრე class-ს,
+მაგრამ თუ ქვედას მივმართავთ !important -ით,
+რომელიც არის ყველაზე პრიორიტეტული მიმართვა, გადააწერს*/
+#box2id {
+    background-color: black;
+    color:green;
+    padding-top: 50px;
+    padding: 15px 13px;
+    border: 3px solid black;
+    margin: 0px auto  /* გაცენტრვა; */
+}
+
+.box2 {
+    background-color: yellow !important;
+    color:green
+}
+
+img {
+    margin: 33px 123px;
+}
+
+.box4 {
+    width: 350px; 
+    height:180px;
+    margin: 20px auto;
+    text-align: center;
+}
