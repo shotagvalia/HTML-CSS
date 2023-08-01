@@ -122,6 +122,8 @@ body {
   line-height: normal;
   margin-top: 24px;
   transition: 0.4s;
+  cursor: pointer;
+  transition: 0.4s;
 }
 .cancel:hover {
   color: #1f2e55;
